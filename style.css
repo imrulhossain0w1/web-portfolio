@@ -30,6 +30,9 @@ img{
 .half-width p{
     color: #a1a1a1;
 }
+.half-width h2{
+    font-size: 40px;
+}
 .half-width a{
     text-decoration: none;
     padding: 10px 30px;
@@ -37,4 +40,10 @@ img{
     color: #fff;
     font-weight: 700;
     border-radius: 10px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right;
 }
