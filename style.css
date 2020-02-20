@@ -20,8 +20,8 @@ img{
 .half-width h1{
     font-size: 56px;
 }
-.half-width span{
-    color: orange;
+.orange-highlight{
+    color: orange !important;
 }
 .half-width h3{
     font-size: 24px;
@@ -46,4 +46,32 @@ img{
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.experience-area h1{
+    text-align: center;
+    font-size: 50px;
+}
+.experience-area-box{
+    box-shadow: 10px 10px 50px gray;
+    background: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(42, 39, 209), tomato);
+    border-image-slice: 1;
+}
+.footer p{
+    text-align: center;
 }
